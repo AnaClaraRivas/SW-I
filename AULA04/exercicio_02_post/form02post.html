@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 02 - POST</title>
+</head>
+<body>
+    <p>Crie um formulário onde o usuário informa seu nome, seu e-mail, sua data de nascimento e escolha numa lista suspensa a bandeira do seu cartão de crédito. Ao clicar em em botão de submit, exiba todos os dados na tela e não exiba o formulário após o preenchimento.</p>
+    <form action="exe01.php" method="POST">
+        <p>Nome de usuario: <input type="text" id="" name="usua" required><br><br></p>
+        <p>Senha: <input type="password" id="" name="senha" required><br><br></p>
+        <p>Selecione a bandeira do seu cartão: <select name="cartao" required></select>
+            <select name="opcoescartao">
+                <option value="visa"> Visa </option>
+                <option value="master"> MasterCard </option>
+                <option value="elo"> Elo </option>
+                <option value="hiper">HiperCard</option>
+                <option value="amreican">AmericanExpress</option>
+               </select>
+        </p>
+        <p><input type="submit" value="Submit"></p>
+        
+      </form>
+    
+</body>
+</html>
