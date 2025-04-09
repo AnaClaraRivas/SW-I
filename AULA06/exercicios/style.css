@@ -1,0 +1,46 @@
+
+
+/* GERAL */ 
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #444645;
+    color: white;
+  }
+
+
+/*EXERCICIO 01 */
+.par {
+    background-color: #ffeeba; /* amarelo clarinho */
+}
+
+.impar {
+    background-color: #c3e6cb; /* verde clarinho */
+}
+
+
+/*EXERCICIO 03 */
+.cabecalho{
+    background-color: rgb(198, 232, 255);
+    color:black;
+}
+
+.livros{
+    background-color: aquamarine;
+}
+
+.eletronicos{
+    background-color: bisque;
+}
+
+.roupas{
+    background-color: rgb(255, 183, 183);
+}
+
+
