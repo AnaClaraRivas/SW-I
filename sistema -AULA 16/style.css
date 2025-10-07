@@ -1,0 +1,41 @@
+
+.botao{
+    width: 5%;
+    margin-top: 5%;
+    background-color: pink;
+    padding: 1%;
+    border-radius: 8px;
+
+}
+a{
+    text-decoration: none;
+    
+}
+
+a:active, a:visited{
+    color: black;
+}
+
+section{
+    margin: 5%;
+    text-align: center;
+}
+
+form{
+    margin: 3%;
+    width: 50%;
+    
+}
+
+input{
+    border-radius: 4px;
+    padding: 1%;
+    margin: 3%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8%;
+}
